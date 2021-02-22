@@ -9,8 +9,9 @@ import { MainNavComponent } from './header/main-nav/main-nav.component';
 import { SideNavComponent } from './header/side-nav/side-nav.component';
 import { HomeComponent } from './home/home.component';
 import { CarousalComponent } from './home/carousal/carousal.component';
-import { ProductsComponent } from './home/products/products.component';
 import { FilterComponent } from './home/filter/filter.component';
+import { ProductComponent } from './product/product.component';
+import { BestSellerComponent } from './home/best-seller/best-seller.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +21,9 @@ import { FilterComponent } from './home/filter/filter.component';
     SideNavComponent,
     HomeComponent,
     CarousalComponent,
-    ProductsComponent,
-    FilterComponent
+    FilterComponent,
+    ProductComponent,
+    BestSellerComponent
   ],
   imports: [
     BrowserModule,
