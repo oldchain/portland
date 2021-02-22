@@ -1,14 +1,37 @@
-<ul class="nav">
+<ul class="nav align-items-center">
     <li class="nav-item">
-      <a class="nav-link active" href="#">Active</a>
+        <div class="btn-group">
+            <label>SORT BY:</label>
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              BEST MATCH
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </div>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
+    <li class="nav-item justify-content-center">
+        <div class="form-group d-flex align-items-center">
+            <label class="col-form-label">KEYWORDS: </label>
+              <input type="text" class="form-control" placeholder="Tablet">
+            <label class="col-form-label">KEYWORDS: </label>
+              <input type="text" class="form-control price" placeholder="10"> - <input type="text" class="form-control price" placeholder="1000">
+
+        </div>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
+    <li class="nav-item d-flex align-items-center">
+        <p><fa-icon class="green" [icon]='faCheckCircle'></fa-icon>Free Shipping</p>
     </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="#">Disabled</a>
-    </li>
+    <div class="btn-group float-right">
+        <label>SHIP TO:</label>
+        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          USA
+        </button>
+        <div class="dropdown-menu">
+        </div>
+    </div>
 </ul>
