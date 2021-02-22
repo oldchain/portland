@@ -8,7 +8,17 @@
             padding: 0px 15px 0px 15px;
         }
         li.float-right{
-            
+
+        }
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        .form-control{
+            background-color: #f8f9fa !important;
+            border: none;
+            font-size: 14px;
+            font-weight: 600;
         }
     }
 }

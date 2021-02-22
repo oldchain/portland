@@ -1,0 +1,33 @@
+.carousel-indicators {
+    li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    }
+  }
+.carousel-caption{
+    left: 15%;
+    top: 10%;
+    right: 100%;
+    width: 30%;
+    text-align: left;
+    h1{
+        font-weight: 400;
+        width: 290px;
+        font-size: 42px;
+        padding-bottom: 40px;
+        line-height: 60px;
+    }
+    p{
+        width: 471.94px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+    .btn{
+        position: absolute;
+        bottom: 20%;
+        padding: 10px 60px 10px 60px;
+        border-radius: 50px;
+        box-shadow: 0px 20px 40px #A8ADBB;
+    }
+}
