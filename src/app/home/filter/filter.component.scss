@@ -1,0 +1,49 @@
+.dropdown-toggle{
+    background: white;
+    color: black;
+    border: none;
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+    font-size: 11px;
+}
+.btn-group{
+    align-items: center;
+    label{
+        margin: 5px 10px 5px 10px;
+        font-size: 11px;
+    }
+}
+.form-group{
+    margin: 0px;
+    input{
+        margin: 0px 10px 0px 10px;
+        border-radius: 50px;
+        background-color: #F0F2F7;
+        padding: 10px 10px;
+        color: #B9BFD3;
+    }
+    .price{
+        width: 70px;
+    }
+}
+.nav-item{
+    margin: 0px 5px 0px 5px;
+    p{
+        font-size: 15px;
+        font-weight: 500;
+        color: #343E5C;
+        margin:0px;
+        margin-right: 70px;
+        .green{
+            margin-right: 10px;
+            color: #00E2AA;
+        }
+    }
+}
+@media only screen and (max-width: 600px) { 
+    .nav{
+        .nav-item{
+            margin-bottom: 10px;
+        }
+    }
+}

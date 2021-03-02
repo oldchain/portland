@@ -1,0 +1,24 @@
+.side-nav{
+    border-top: 1px solid #F0F2F7;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    ul{
+        li{
+            padding: 0px 15px 0px 15px;
+        }
+        li.float-right{
+
+        }
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        .form-control{
+            background-color: #f8f9fa !important;
+            border: none;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}
